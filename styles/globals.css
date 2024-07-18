@@ -1,6 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@import url("/bmw-image.webp");
+
+@font-face {
+  font-family: "Poland";
+  src: url("../public/PolandCanIntoBigWritingsOutline-B9RV.otf");
+}
+
+
+
+
+
 .navigation {
 
 
