@@ -3,7 +3,7 @@ import styles from '../styles/navbar.module.css'
 
 const Navbar = () => {
   return (
-    <div className=" px-[30px] py-[30px] flex flex-row flex-nowrap items-center justify-center bg-custom-bg-color  box-border font-customFont max-1300:px-[20px] py-[20px] max-500:px-[31px] py-[15px] max-400:px-[20px] py-[10px]  ">
+    <div className="px-[30px] py-[30px] flex flex-row flex-nowrap items-center justify-center bg-custom-bg-color  box-border font-customFont max-1300:px-[20px] py-[20px] max-500:px-[31px] py-[15px] max-400:px-[20px] py-[10px]  ">
       <div className=" flex flex-row flex-nowrap items-center justify-between w-full max-w-[2000px] box-border   min-1500:w-[2000px] ">
         <div className="box-border  ">
           <Link href="/">
