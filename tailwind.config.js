@@ -15,7 +15,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        '600': '600px',
+        '1000': '1000px',
+        
 
+
+       },
 
       screens: {
 

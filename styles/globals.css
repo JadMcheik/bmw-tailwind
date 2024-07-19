@@ -8,3 +8,24 @@
   font-family: "Poland";
   src: url("../public/PolandCanIntoBigWritingsOutline-B9RV.otf");
 }
+
+
+@media screen and (min-width: 1500px) {
+  * {
+    font-size: 25px;
+  }
+
+}
+@media screen and (max-width: 1500px) {
+  * {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  * {
+    font-size: 15px;
+  }
+
+
+
+}
