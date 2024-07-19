@@ -25,19 +25,22 @@ module.exports = {
 'max-1300':{'max':'1300px'},
 
 'max-1000':{'max':'1000px'},
+
 'max-700':{'max':'700px'},
+
 'max-500':{'max':'500px'},
-'max-400':{'max':'400px'}
+
+'max-400':{'max':'400px'},
       },
 
 
 
 
       fontFamily: {
-        customFont: ['"Custom Font"', "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        customFont: ['"customFont"', "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", 'Geneva', 'Verdana', 'sans-serif'],
 
-          Poland:["Poland", "sans-serif"],
+          Poland:["Poland","sans-serif"]
 
         // Add more custom font families as needed
       },
@@ -45,7 +48,7 @@ module.exports = {
 
       colors: { 
         'custom-dark-blue': '#272727', 
-        'navbar-bg-color':'#f0f2f5',
+        'custom-bg-color':'#f0f2f5',
         'link-color':'#606060',
         'menu-link-hover':'#12436b',
     }, 
