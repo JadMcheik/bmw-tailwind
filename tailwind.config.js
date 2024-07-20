@@ -15,16 +15,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      width: {
-        '600': '600px',
-        '1000': '1000px',
-        
+     
+    
 
-
-       },
+      dropShadow: {
+        'custom': '3px 3px 3px rgba(3, 26, 102, 0.4)',
+      
+      },
 
       screens: {
 
+
+        'min-2000':{'min' : '2000px'},
 
 'min-1500':{'min' : '1500px'},
 
@@ -46,17 +48,21 @@ module.exports = {
         customFont: ['"customFont"', "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", 'Geneva', 'Verdana', 'sans-serif'],
 
-          Poland:["Poland","sans-serif"]
+          Poland:["Poland","sans-serif"],
+
+         'georgia': ['Georgia', 'Times New Roman', 'Times', 'serif'],
 
         // Add more custom font families as needed
       },
 
-
+     
       colors: { 
         'custom-dark-blue': '#272727', 
         'custom-bg-color':'#f0f2f5',
         'link-color':'#606060',
         'menu-link-hover':'#12436b',
+        'item-bg-color':'#ffffff',
+       
     }, 
 
 

@@ -4,6 +4,16 @@
 @tailwind utilities;
 
 
+*{
+
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: x-large;
+  font-weight: 900;
+}
+
 @font-face {
   font-family: "Poland";
   src: url("../public/PolandCanIntoBigWritingsOutline-B9RV.otf");
