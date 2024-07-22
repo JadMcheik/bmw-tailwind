@@ -52,6 +52,8 @@ module.exports = {
 
          'georgia': ['Georgia', 'Times New Roman', 'Times', 'serif'],
 
+
+         'sign-in-font': [ '"sign-in-font"' ,'Arial', 'Helvetica', 'sans-serif'],
         // Add more custom font families as needed
       },
 

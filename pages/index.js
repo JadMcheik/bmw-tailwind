@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Banner from "@/components/Banner";
 import Cars from "@/components/Cars";
+import SignIn from "@/components/SignIn";
 
 
 
@@ -25,6 +26,7 @@ export default function Home() {
 <Navbar/>
 <Banner/>
 <Cars/>
+<SignIn/>
       </main>
     </>
   );
