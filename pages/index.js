@@ -7,6 +7,7 @@ import Banner from "@/components/Banner";
 import Cars from "@/components/Cars";
 import SignIn from "@/components/SignIn";
 import Footer from "@/components/Footer";
+import Signature from "@/components/Signature";
 
 
 
@@ -29,6 +30,7 @@ export default function Home() {
 <Cars/>
 <SignIn/>
 <Footer/>
+<Signature/>
       </main>
     </>
   );
