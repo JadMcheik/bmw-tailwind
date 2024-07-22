@@ -29,7 +29,7 @@ module.exports = {
         'min-2000':{'min' : '2000px'},
 
 'min-1500':{'min' : '1500px'},
-
+'min-1300':{'min' : '1300px'},
 'max-1300':{'max':'1300px'},
 
 'max-1000':{'max':'1000px'},
@@ -54,6 +54,9 @@ module.exports = {
 
 
          'sign-in-font': [ '"sign-in-font"' ,'Arial', 'Helvetica', 'sans-serif'],
+
+
+         'footer-font':['"footer-font"','Arial', 'Helvetica','sans-serif'],
         // Add more custom font families as needed
       },
 
@@ -64,6 +67,7 @@ module.exports = {
         'link-color':'#606060',
         'menu-link-hover':'#12436b',
         'item-bg-color':'#ffffff',
+        'light-blue':'#2d2ae9',
        
     }, 
 

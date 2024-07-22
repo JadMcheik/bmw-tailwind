@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Banner from "@/components/Banner";
 import Cars from "@/components/Cars";
 import SignIn from "@/components/SignIn";
+import Footer from "@/components/Footer";
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
 <Banner/>
 <Cars/>
 <SignIn/>
+<Footer/>
       </main>
     </>
   );
