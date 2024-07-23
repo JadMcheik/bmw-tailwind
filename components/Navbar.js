@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link href="/" className="  duration-200  hover:text-custom-dark-blue"> Home </Link>
           </div>
           <div className="text-link-color box-border ">
-            <Link href="#Sign-in" className="  duration-200  hover:text-custom-dark-blue"> Sign in </Link>
+            <Link href="#Sign-in" className="  duration-200  hover:text-custom-dark-blue "> Sign in </Link>
           </div>
           <div className="text-link-color  box-border ">
             <Link href="#footer" className="  duration-200  hover:text-custom-dark-blue"> Discover us</Link>
