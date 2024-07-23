@@ -4,7 +4,7 @@ import styles from "../styles/navbar.module.css";
 const Navbar = () => {
   return (
     <div className=" p-4  md:p-5    lg:p-6  2xl:p-8             flex flex-nowrap items-center justify-center bg-custom-bg-color font-customFont  ">
-      <div className=" flex flex-nowrap items-center justify-between w-full 2xl:container w-auto ">
+      <div className=" flex flex-nowrap items-center justify-between w-full 2xl:container mx-auto ">
         <div className=" w-24 sm:w-36 md:w-52    ">
           <Link href="/">
             <img
