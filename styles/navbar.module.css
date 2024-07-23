@@ -115,9 +115,9 @@
     position: absolute;
     width: 130px;
     margin: -100px 0 0 450px;
-    padding: 0px 10px;
-    padding-top: 125px;
-  
+    padding: 10px 10px;
+
+  margin-top: 0px;
     background: #f0f2f5;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
