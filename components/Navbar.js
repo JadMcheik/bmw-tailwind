@@ -15,14 +15,14 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row flex-nowrap items-center justify-around box-border w-[400px] text-lg font-bold   min-1500:w-[600px] px-[20px] max-700:w-[300px] text-lg max-500:hidden ">
-          <div className=" text-link-color box-border duration-200   hover:text-custom-dark-blue ">
-            <Link href="/"> Home </Link>
+          <div className=" text-link-color box-border ">
+            <Link href="/" className="  duration-200  hover:text-custom-dark-blue"> Home </Link>
           </div>
-          <div className="text-link-color box-border duration-200  hover:text-custom-dark-blue">
-            <Link href="#Sign-in"> Sign in </Link>
+          <div className="text-link-color box-border ">
+            <Link href="#Sign-in" className="  duration-200  hover:text-custom-dark-blue"> Sign in </Link>
           </div>
-          <div className="text-link-color  box-border duration-200 hover:text-custom-dark-blue">
-            <Link href="#footer"> Discover us</Link>
+          <div className="text-link-color  box-border ">
+            <Link href="#footer" className="  duration-200  hover:text-custom-dark-blue"> Discover us</Link>
           </div>
         </div>
 
