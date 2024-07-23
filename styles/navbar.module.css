@@ -139,7 +139,7 @@
      */
   
   #menu_toggle input:checked ~ ul {
-    transform: translate(-409%, 0);
+    transform: translate(-406%, 0);
     display: block;
   }
   
