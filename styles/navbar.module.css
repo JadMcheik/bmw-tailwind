@@ -7,14 +7,9 @@
   }
   
   
-  .navigation {
-  
-  box-sizing: border-box;
-  
-  }
   
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 639px) {
   .navigation {
     display: block;
   }
@@ -144,21 +139,11 @@
      */
   
   #menu_toggle input:checked ~ ul {
-    transform: translate(-397%, 0);
+    transform: translate(-409%, 0);
     display: block;
   }
   
   
-  
-  
-  
-  }
-  
-  @media screen and (max-width: 400px) {
-  #menu_toggle input:checked ~ ul {
-    transform: translate(-406%, 0);
-    display: block;
-  }
   
   
   

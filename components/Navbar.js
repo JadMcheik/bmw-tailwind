@@ -3,25 +3,25 @@ import styles from "../styles/navbar.module.css";
 
 const Navbar = () => {
   return (
-    <div className="px-[30px] py-[30px] flex flex-row flex-nowrap items-center justify-center bg-custom-bg-color  box-border font-customFont max-1300:px-[20px] py-[20px] max-500:px-[31px] py-[15px] max-400:px-[20px] py-[10px]  ">
-      <div className=" flex flex-row flex-nowrap items-center justify-between w-full max-w-[2000px] box-border   min-1500:w-[2000px] ">
-        <div className="box-border  ">
+    <div className=" p-4  md:p-5    lg:p-6  2xl:p-8             flex flex-nowrap items-center justify-center bg-custom-bg-color font-customFont  ">
+      <div className=" flex flex-nowrap items-center justify-between w-full 2xl:container w-auto ">
+        <div className=" w-24 sm:w-36 md:w-52    ">
           <Link href="/">
             <img
               src="BMWlogo.svg"
-              className="w-[200px] object-cover box-border  max-700:w-[150px] max-500:w-[100px] max-400:w-[80px]"
+             
             />{" "}
           </Link>
         </div>
 
-        <div className="flex flex-row flex-nowrap items-center justify-around box-border w-[400px] text-lg font-bold   min-1500:w-[600px] px-[20px] max-700:w-[300px] text-lg max-500:hidden ">
-          <div className=" text-link-color box-border ">
+        <div className="hidden sm:flex flex-nowrap items-center justify-around text-lg font-bold pl-7  2xl:pl-5  ">
+          <div className=" text-link-color px-4 ">
             <Link href="/" className="  duration-200  hover:text-custom-dark-blue"> Home </Link>
           </div>
-          <div className="text-link-color box-border ">
+          <div className="text-link-color px-4 ">
             <Link href="#Sign-in" className="  duration-200  hover:text-custom-dark-blue "> Sign in </Link>
           </div>
-          <div className="text-link-color  box-border ">
+          <div className="text-link-color  px-4">
             <Link href="#footer" className="  duration-200  hover:text-custom-dark-blue"> Discover us</Link>
           </div>
         </div>
